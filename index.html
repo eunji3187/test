@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 페이지</title>
+    <style>
+        /* 웹페이지 배경화면 */
+        body{
+            background-image: url("spring_picnic_resized.png");
+            background-repeat: no-repeat;
+            text-align:center;
+        }
+
+        /* 문서 링크 */
+        a:link {
+            color:black;
+            text-decoration: none;
+        }
+        a:visited{
+            color: #71007ca0;
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(148, 0, 0);
+            font-weight: bold;
+        }
+        a:active{
+            color:#00eaff;
+            text-decoration:underline;
+        }
+
+        #menu li{
+            display:inline-block;
+            /* margin: 10px; */
+            text-align: center;
+            font-size: 15px;
+        }
+        #menu {
+            border: double 3px black;
+            text-align: center;
+            list-style:none;
+            display:inline;
+            padding: 15px 25px;
+            margin: 20px 0 0 0;
+        }
+
+
+        /* 베너 */
+        #a{
+            width: 500px;
+        }
+
+
+        /* 푸드트럭 태그 */
+        .item{
+            list-style: none;
+            text-align: center;
+            display: inline-block;
+        }
+
+
+        .image{
+            list-style: none;
+            text-align: center;
+        }
+        .d{
+            border-radius: 25px 0;
+            display: block;
+            width: 100%;
+            border: solid 3px #432f18;
+        }
+        
+        
+
+        .subject{
+            text-align: center;
+            font-size: 15px;
+            font-style: bold;
+        }
+
+        .price{
+            text-align: center;
+            font-size:15px;
+            color:gray;
+        }
+
+
+        /* 봄 축제 이용 안내 */
+        .ex li{
+            list-style:none;
+        }
+        h1{
+            font-style:italic;
+            text-decoration:underline;
+        }
+
+        h2{
+            margin: 0 300px;
+            padding-bottom: 20px;
+            border-bottom: solid 1px gray;
+        }
+
+    </style>
+</head>
+<body><br><br>
+    <ul id="menu">
+        <li><a href="8-6(8).html">책 소개 | </a></li>
+        <li><a href="8-9.html">인라인과 블록 & display 속성 & 블록 | </a></li>
+        <li><a href="8-12.html">인라인과 블록 특성 모두 갖게 하기</a></li>
+    </ul>
+
+    <div >
+        <img id="a" src="banner.png">
+    </div>
+
+    <h1>꽃이 피는 계절, 우리의 이야기가 시작되는 이곳</h1><br><br><br><br><br><br><br>
+
+    <h2>1. 봄 축제 안내</h2>
+    <ul class="ex">
+        <li>일시 : 2025년 4월 1일 화요일 ~ 2025년 4월 3일 목요일</li>
+        <li>장소 : 가천대학교 바람개비 동산</li>
+        <li>대상 : 가천대학교 구성원</li>
+    </ul><br><br><br><br><br>
+
+
+    <h2>2. 푸드 트럭</h2>
+    <ul class="item">
+        <li class="image"><div><img class="d" src="truck(1).jpg"></div></li>
+        <li class="sbuject"> < 수제 닭꼬치 > </li>
+        <li class="price">소금구이 5,000 <br>데리야끼 5,000 <br> 스파이시 5,000</li>
+    </ul>
+    <ul class="item">
+        <li class="image"><div><img class="d" src="truck(2).jpg"></div></li>
+        <li class="sbuject"> < 야끼소바 > </li>
+        <li class="price">야끼소바 10,000 <br> 오코노미야끼 10,000 <br> .</li>
+    </ul>
+    <ul class="item">
+        <li class="image"><div><img class="d" src="truck(3).jpg"></div></li>
+        <li class="subject"> < 닭강정 > </li>
+        <li class="price"> . <br> 오리지널 13,000 <br> .</li>
+    </ul><br><br><br><br><br>
+
+
+    <h2>3. 무당이 운영 경로 안내</h2>
+    <ul class="ex">
+        <li>반도체 대학 -> 교육대학원 -> 학생회관 -> ai 공학관</li>
+        <li>ai 공학관 -> 중앙도서관 -> 반도체 대학</li>
+    </ul><br><br><br><br><br>
+    
+    <h2>4. 축제 참여 유의사항</h2>
+    <ul class="ex">
+        <li>주류 반입이 불가</li>
+        <li>교육대학원에서 평생교육원까지의 차량 출입 불가</li>
+    </ul><br><br><br><br><br>
+
+</body>
+</html>
